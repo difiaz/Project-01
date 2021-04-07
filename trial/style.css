@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+
+.container{
+    width: 65%;
+    height: auto;
+    background: #FFFAFA;
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    font-size: xx-large;
+    padding: 30px 0 30px 10px;
+}
+
+.menu {
+ display: block;
+ background-color:#00A6BB;
+ background-image: linear-gradient(white, #87CEEB);
+ height:46px;
+}
+
+.content {
+ clear: both;
+ padding:5px 0;
+ min-height: 200px;
+
+}
+
+#navigasi {
+ position:relative;
+ line-height:30px;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:8px 16px;
+ background-color:#00A6BB;
+ background-image: linear-gradient(white, #87CEEB);
+ color:#191970;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ background-color:#00BCD4;
+ background-image: linear-gradient(white, #7B68EE);
+ color:#CD5C5C;
+}
+
+#navigasi li {
+ position:relative;
+ float:left;
+}
+
+#navigasi ul {
+ position:absolute;
+ display:none;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:12em;
+ height:auto;
+ float:left;
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
+
+article {
+    width: 98.8%;
+    height: auto;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gainsboro;
+    clear: both;
+}
+
+article p {
+    padding: 5px 6px 5px 5px;
+    line-height: 1.5;  
+}
+article .konten {
+    width: 30%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+	background-color:white;
+}
+article .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+	
+}
+article .isi p {
+    margin-top: 0;
+}
+article .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+article .konten:hover {
+    opacity:0.9;
+
+}
+article .konten .judul a {
+    margin-left: 5px;
+    text-decoration: none;
+    font-size:x-large;
+    color:#020101;
+}
+
+article .konten a:hover {
+    opacity:0.9;
+}
+
+.footer {
+ clear: both;
+ margin-top:10px;
+ background-color: #eee;
+ padding:10px 8px;
+}
+
+.badan-utama
+{
+    max-width: 1200px;
+	width : 100%;
+    margin: 20px auto;
+    background-color: 		#F5F5F5;
+    padding: 15px;
+	font-family: Verdana;
+    overflow: hidden;
+}
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.menu-besar2
+{
+	max-width: 1150px;
+	height:350px;
+    margin: 20px auto;
+	background-color: #FFFAF0;
+    float: left;
+	overflow: hidden;
+}
+
+footer
+{
+    clear: both;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+	font-family: Arial;
+}
